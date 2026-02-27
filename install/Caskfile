@@ -1,0 +1,19 @@
+# Homebrew Bundle
+# https://github.com/Homebrew/homebrew-bundle
+
+# ------------------------------------------------------------------------------
+# Cask
+# ------------------------------------------------------------------------------
+
+# Utils
+cask "bazecor"      # Defy keyboard configuration
+cask "discord"      # Communication
+cask "obsidian"     # Note taking
+cask "notion"       # Note taking
+cask "calibre"      # Ebook reader & util
+
+# Development
+cask "iterm2"               # Terminal Emulator
+cask "visual-studio-code"   # IDE
+cask "cursor"               # IDE
+

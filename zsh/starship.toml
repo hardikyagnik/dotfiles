@@ -1,0 +1,12 @@
+
+# right_format = '''$time'''
+right_format = '''$cmd_duration'''
+
+[cmd_duration] 
+min_time = 100
+
+[time]
+disabled = true
+time_format = '%T'
+format = '🕙 [$time]($style)'
+
