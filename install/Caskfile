@@ -17,3 +17,9 @@ cask "iterm2"               # Terminal Emulator
 cask "visual-studio-code"   # IDE
 cask "cursor"               # IDE
 
+# AI
+cask "grok-bot"             # AI Agent
+
+# Network
+cask "cloudflare-warp"      # VPN
+

@@ -23,5 +23,13 @@ HISTSIZE=10000  # Saved to RAM (default 2000)
 ## Load Aliases
 source $ZSH_DIR/.aliases
 
+# Source private environment variables if the file exists
+[ -f "$ZSH_DIR/secrets.sh" ] && source "$ZSH_DIR/secrets.sh"
+
+## FZF settings
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+
+export FZF_CTRL_R_OPTS="--layout=reverse --height '60%' --border --margin '0,2,0'"
+export FZF_CTRL_T_OPTS="--layout=reverse --height '80%' --border --preview 'cat {}'"
+# export FZF_CTRL_T_OPTS="--layout=reverse --height '80%' --border --preview 'bat --color=always --style=numbers --line-range=:500 {} || cat {}'"
