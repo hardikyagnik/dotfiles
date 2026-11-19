@@ -1,5 +1,0 @@
-#!/usr/bin/env zsh
-
-alias ls="eza"
-alias la="eza -a --icons --group-directories-last"
-alias ll="eza -al --icons --group-directories-last --git"

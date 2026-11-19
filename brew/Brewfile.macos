@@ -1,0 +1,20 @@
+# macOS GUI applications (primary workstation)
+# https://github.com/Homebrew/homebrew-bundle
+
+# Utils
+cask "bazecor"              # Defy keyboard configuration
+cask "discord"              # Communication
+cask "obsidian"             # Note taking
+cask "notion"               # Note taking
+cask "calibre"              # Ebook reader & util
+
+# Development
+cask "iterm2"               # Terminal emulator
+cask "visual-studio-code"   # IDE
+cask "cursor"               # IDE
+
+# AI
+cask "grok-bot"             # AI agent
+
+# Network
+cask "cloudflare-warp"      # VPN

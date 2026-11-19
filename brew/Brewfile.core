@@ -1,0 +1,26 @@
+# Cross-machine CLI formulae (primary Mac, secondary Mac, cloud/Linux dev boxes)
+# https://github.com/Homebrew/homebrew-bundle
+
+# Dotfiles management
+brew "stow"         # Symlink farm manager
+
+# Utils
+brew "starship"     # Shell prompt
+brew "git"
+brew "gh"           # GitHub CLI
+brew "eza"          # Listing files with info (better `ls`)
+brew "fzf"          # Fuzzy file finder and filtering
+brew "tig"          # Git terminal UI
+brew "lazygit"      # Git terminal UI
+
+# Development
+brew "uv"           # Fast Python package manager, installer, resolver
+brew "hugo"         # Static site generator
+brew "node"         # JavaScript runtime and npm package manager
+
+# Optional / future
+
+# brew "tlrc"       # Community-maintained docs (better `man`)
+# brew "ripgrep"    # Searching within files (better `grep`)
+# brew "bat"        # Better `cat` (used automatically by fzf preview when installed)
+# brew "btop"       # Performance and resource monitoring tool (better `top`)

@@ -1,3 +1,15 @@
 .DS_Store
 
+# Secrets & machine-local overrides
 secrets.sh
+secrets.*
+*.local
+*.local.zsh
+.env
+.env.*
+
+# Safety guards for future SSH / agent packages
+**/id_rsa*
+**/id_ed25519*
+**/*.pem
+**/*.key
